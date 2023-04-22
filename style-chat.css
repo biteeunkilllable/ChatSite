@@ -1,0 +1,36 @@
+body{
+    background-color: tomato;
+}
+#chatputdiv{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    bottom: 0%;
+    left: 0%;
+}
+#chatbox{
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    border-radius: 10px;
+    top: 50%;
+    left: 44%;
+    transform: translate(-50%,-50%);
+}
+#sendbtn{
+    position: absolute;
+    width: 8%;
+    height: 50%;
+    right: 4%;
+    top: 50%;
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+#p1{
+    color: gainsboro;
+    position: absolute;
+    top: 5%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+}

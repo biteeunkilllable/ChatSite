@@ -1,0 +1,46 @@
+body{
+    border: 0px;
+    padding: 0px;
+    background-color: #1d1d1d;
+}
+#login-window{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #22dc;
+    border-radius: 6px;
+    background-color: #192841;
+    width: 30%;
+    height: 63%;
+}
+#content-cont{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left:  7%;
+}
+label{
+    left:30%;
+    font-size: 33px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    margin: 15% 0 15% 0;
+    width: 230%;
+    height: 8%;
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    margin: 20% 0 30% 0;
+    width: 70%;
+    height: 12%;
+    border-radius: 30px;
+}
+#login-btn{
+    position: absolute;
+    margin-right: 20%;
+}

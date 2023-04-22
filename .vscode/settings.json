@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mark",
+            "database": "mydb1",
+            "username": "root",
+            "password": "root123",
+            "connectionTimeout": 10
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "chatproject",
+            "database": "chatProject",
+            "username": "root",
+            "password": "root123",
+            "connectionTimeout": 10
+        }
+    ]
+}
